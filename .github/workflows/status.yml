@@ -2,7 +2,7 @@
 name: Check Anlakshya API status
 on:
   schedule:
-    - cron:  '*/10 * * * *'    # At every 10th minute
+    - cron:  '*/5 * * * *'    # At every 10th minute
   workflow_dispatch:
 jobs:
   Run:
